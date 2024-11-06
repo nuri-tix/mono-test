@@ -201,10 +201,12 @@ section {
 	}
 
 	.header__comparison {
-		background: url('../images/comparison.svg') no-repeat center /cover;
+		background: url('../images/comparison.svg') no-repeat center /contain;
 		width: 12px;
 		height: 16px;
 		border: none;
+		display: block;
+		-webkit-appearance: none;
 	}
 
 	.header__input-search {
@@ -212,10 +214,12 @@ section {
 	}
 
 	.header__btn-search {
-		background: url('../images/search.svg') no-repeat center /cover;
+		background: url('../images/search.svg') no-repeat center /contain;
 		width: 18px;
 		height: 19px;
 		border: none;
+		display: block;
+		-webkit-appearance: none;
 	}
 
 	.header__contacts {
